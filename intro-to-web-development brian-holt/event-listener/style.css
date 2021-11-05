@@ -1,0 +1,50 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  background: #ccc;
+};
+.main{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.color-picker {
+  background-color: #d8d9db;
+}
+.container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: normal;
+  font-size: 40px;
+}
+.event-bubbling{
+  background-color: #dd8d37;
+  padding: 40px 30px;
+}
+.container button{
+  padding: 20px 30px;
+  margin: 10px 20px;
+  font-size: 40px
+}
+
+.header {
+  height: 80px;
+  margin: 0;
+}
+.color-picker p {
+  background-color: rgb(196, 104, 104);
+}
+.change-paragraph{
+  height: 250px;
+  background-color: #ebebeb;
+  color: #000000;
+}
+.in-text {
+  padding: 20px;
+}

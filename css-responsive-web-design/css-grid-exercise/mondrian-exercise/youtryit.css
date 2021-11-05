@@ -1,0 +1,83 @@
+.wrapper {
+  width: 633px;
+  height: 458px;
+  border: 5px solid black;
+  /* background: url(mondrian2.png) no-repeat; */
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 70px 12px 60px 60px 86px 145px;
+  grid-template-columns: 309px 99px 70px 75px;
+  grid-template-areas: 'a b c c d' 
+                       'a b c c g' 
+                       'a e c c g' 
+                       'a e f f g' 
+                       'a e j j j' 
+                       'h i j j j'
+}
+div {
+	/* border: 1px solid black; */
+	background-color: black;
+  /* opacity: 0.5; */
+  display: flex;
+  text-align: center;
+
+}
+.cell {
+  /* border: 3px solid red; */
+  font-size: 70px;
+  color: black;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}
+.a {
+  grid-area: a;
+  background-color: #D20009;
+  line-height: 235px; 
+}
+.b {
+  grid-area: b;
+  background-color: #FFD400;
+  line-height: 80px;
+}
+.c {
+  grid-area: c;
+  background-color: #F6F6EE;
+  line-height: 130px;
+}
+.d {
+  grid-area: d;
+  background-color: #D20009;
+  line-height: 60px;
+}
+.e {
+  grid-area: e;
+  background-color: #F6F6EE;
+  line-height: 180px;
+}
+.f {
+  grid-area: f;
+  background-color:#33477B;
+  line-height: 60px;
+}
+.g {
+  grid-area: g;
+  background-color: #F6F6EE;
+  line-height: 120px;
+}
+.h {
+  grid-area: h;
+  background-color: #F6F6EE;
+  line-height: 140px;
+}
+.i {
+  grid-area: i;
+  background-color: #33477B;
+  line-height: 145px; 
+}
+.j {
+  grid-area: j;
+  background-color: #FFD400;
+  line-height: 230px;
+}
+
